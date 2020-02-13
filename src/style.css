@@ -1,0 +1,93 @@
+.app {
+    width: 1070px;
+    margin: 0px auto;
+    border : 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabs-panel {
+    width: 700px;
+    height: 800px;
+    border : 1px solid black;
+}
+
+.info {
+    width: 400px;
+    border : 1px solid black;
+}
+
+.tabs-panel__tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs__item {
+    width: 350px;
+    padding: 15px 0px;
+    border : 1px solid lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tabs__item-selected{
+    background-color: #4faaff;
+}
+
+.info div {
+    padding-left: 15px;
+}
+
+.info h4 {
+    font-size: 18px;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+.input-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 40px;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.input-line input, select {
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.row {
+    padding: 0px 10px;
+}
+.row div {
+    font-size: 18px;
+}
+
+.row .collection{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.container {
+    margin: 15px 1px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #097be6;
+}
+
+.container label {
+    font-size: 16px;
+}
+.collection input {
+    display:none;
+}
