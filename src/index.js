@@ -1,16 +1,8 @@
-import _ from 'lodash';
-import './style.css';
-import img from './assets/image/calc.png';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./components/App";
+import './style.css'
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello', 'World!',], ' ');
-    element.classList.add('hello');
 
-    const icon = new Image();
-    icon.src = './dist/' + img;
-    element.appendChild(icon);
-    return element;
-}
+ReactDOM.render(<App />, document.getElementById('root'));
 
-document.body.appendChild(component());
