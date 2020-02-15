@@ -8,6 +8,7 @@ export default class App extends React.Component {
         this.state = {tab: 1, class1: " tabs__item tabs__item-selected",  class2: "tabs__item"};
         this.tabClick = this.tabClick.bind(this);
     }
+    
     render() {
         return (
         <div className="app">
